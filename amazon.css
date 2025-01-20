@@ -1,0 +1,463 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.menubar{
+    background-color: #0f1111;
+    height: 60px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+    /**box 1**/
+.nav-logo{
+    height: 50px;
+    width: 100px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+.logo{
+    background-image: url('Amazon-Logo.png');
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+    border: border-box;
+    border: 2px solid transparent;
+}
+.border:hover{
+    border: 1.5px solid white;
+    cursor: pointer;
+}
+/**box 2**/
+.nav-address
+{
+    border: border-box;
+    border: 2px solid transparent;
+    padding: 10px 9px;
+}
+.add-one
+{
+    font-size: 0.85rem;
+    color: #cccc;
+    margin-left: 15px;
+}
+.add-second{
+    font-size: 1rem;
+    margin-left: 3px;
+}
+.add-logo{
+    display: flex;
+    align-items: center;
+}
+/**box 3**/
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    width: 620px;
+    height: 40px;
+    border-radius: 5px;
+}
+.search-select{
+    background-color: #f3f3f3;
+    border-top-left-radius:5px;
+    border-bottom-left-radius:5px;
+    width: 60px;
+    text-align: center ;
+    border: none;
+    font-size: 0.8rem;
+}
+.search-input{
+    width:100%; 
+    font-size: 1rem;
+    border: none;
+    padding: 5px;
+}
+.search-icon{
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color:#febd68;
+    border-top-right-radius:5px;
+    border-bottom-right-radius:5px;
+}
+.fa-solid fa-magnifying-glass{
+    color: black;
+}
+.search-icon:hover{
+    background-color: orange;
+}
+.search-select:hover{
+    background-color: rgb(206, 203, 203);
+}
+/**box 4**/
+.nav-signin{
+    border: border-box;
+    border: 2px solid transparent;
+    padding: 8px 9px;
+}
+.signin-first{
+    font-size: 0.8rem;
+}
+.signin-second{
+    font-size: 0.9rem;
+    font-weight: 600;
+    margin-right: 5px;
+}
+.line-two{
+    display: flex;
+}
+/**box 5**/
+.nav-return{
+    border: border-box;
+    border: 2px solid transparent;
+    padding: 8px 9px;
+}
+.return-first{
+    font-size: 0.8rem;
+}
+.return-second{
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+/**Box 6**/
+.nav-cart i{
+    font-size: 30px;
+}
+.nav-cart{
+    font-size: 0.85rem;
+    font-weight: 600;
+    margin-right: 15px;
+    border: border-box;
+    border: 2px solid transparent;
+    padding: 8px 9px;
+}
+/**Panel**/
+.panel{
+    height: 40px;
+    background-color: #222f3d;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.panel-all{
+    margin-left: 10px;
+    padding: 10px 9px;
+    font-weight: 600;
+}
+.plinks{
+    text-decoration: none;
+    color: white;
+    margin-left: 2px;
+    margin-right: 2px;
+    padding: 10px 9px;
+    font-size: 0.85rem;
+    font-weight: 500;
+}
+/**Hero section**/
+.hero_section{
+    background-image: url(hero_img.jpg);
+    height: 230px;
+    background-size: cover;
+}
+/**content1**/
+.main-section{
+    background-color: rgb(247, 230, 233);
+}
+.content-section1{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 18px;
+}
+.boxy{
+    height: 420px;
+    width: 23%;
+    background-color: white;
+}
+
+.box1-img{
+    background-image: url('https://i.pinimg.com/736x/bc/20/7c/bc207cb9ba56ef9daa02aa37f319db2d.jpg');
+    background-size: cover;   
+    height: 290px;
+    margin:15px 18px 30px 18px;
+    padding: 2px;
+}
+.box2-img{
+    background-image: url('https://i.pinimg.com/736x/0f/82/43/0f8243881cdf8ffb0ef8a36bdc65dfdf.jpg');
+    background-size: cover;
+    height: 290px;
+    margin: 15px 18px 30px 18px;
+    padding: 2px;
+}
+.box3-img{
+    background-image: url('https://i.pinimg.com/736x/3a/bb/55/3abb558182bbd46afdb62d250e04bd32.jpg');
+    background-size: cover;
+    height: 272px;
+    margin: 15px 18px 25px 18px;
+    padding: 2px;
+}
+.box4-img{
+    background-image: url('https://i.pinimg.com/736x/2c/47/12/2c47128b15251d64e9e0d1d230186196.jpg');
+    background-size: cover;
+    height: 290px;
+    margin: 15px 18px 30px 18px;
+    padding: 2px;
+}
+.box-headings{
+    font-size: 1.25rem;
+    color: #0f1111;
+    font-weight: 700;
+    margin:18px 18px 8px 18px;
+    padding: 2px;
+}
+.box-bottom{
+    text-decoration: none;
+    margin:2px 18px 10px 18px;
+    padding: 2px;
+    font-size: 0.9rem;
+}
+/**content2**/
+.content-section2{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 1.2rem;
+}
+/**box 5**/
+.box5{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.box5-img1{
+    background-image: url('https://i.pinimg.com/736x/87/7f/7d/877f7dcab3947bb014ae63e8718712b3.jpg');
+    background-size: cover;
+    width:115px;
+    height:115px;
+}
+.box5-img2{
+    background-image: url('https://i.pinimg.com/736x/21/7f/ad/217fadfa11ac9d824b72e345f7616f8a.jpg');
+    background-size: cover;
+    width:115px;
+    height:115px;
+}
+.box51, .box53{
+    margin: 0px 0px 7.5px 18px;
+    padding: 2px;
+}
+.box52, .box54{
+    margin: 0px 18px 7.5px 0px;
+    padding: 2px;
+}
+.box5-img3{
+    background-image: url('https://i.pinimg.com/736x/26/5a/7a/265a7add90f5682fc56ad7ccb656fd01.jpg');
+    background-size: cover;
+    width:115px;
+    height:115px;
+}
+.box5-img4{
+    background-image: url('https://i.pinimg.com/736x/e5/28/b9/e528b9cdab36f8b052b150150c546173.jpg');
+    background-size: cover;
+    width:115px;
+    height:115px;
+}
+.img-links{
+    color: #0f1111;
+    text-decoration: none;
+    font-size: 0.75rem;
+    margin-top:2px;
+}
+/**box6**/
+.box61{
+    margin:15px 18px 10px 18px;
+}
+.box6-img1{
+    background-image: url('https://m.media-amazon.com/images/I/313wAT6Iy2L._SY320_.jpg');
+    background-size: cover;
+    height: 135px;
+}
+.box6-row2{
+    display: flex;
+    margin:20px 18px 25px 18px;
+    justify-content: space-between;
+    
+}
+.box6-img2{
+    height: 82px;
+    width: 82px;
+    background-image: url('https://m.media-amazon.com/images/I/21W7-lndINL._SY150_.jpg');
+    background-size: cover;
+}
+.box6-img3{
+    height: 82px;
+    width: 82px;
+    background-image: url('https://i.pinimg.com/736x/9e/e3/b9/9ee3b9316dcdf3672eaef5c258dd41c1.jpg');
+    background-size: cover;
+}
+.box6-img4{
+    height: 82px;
+    width: 82px;
+    background-image: url('https://i.pinimg.com/236x/c3/f2/d2/c3f2d222f128707676475c9828f356c6.jpg');
+    background-size: cover;
+}
+.img-links2{
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #0f1111;
+    margin: 5px 0px 5px 0px;
+}
+/**box7**/
+.box7{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.box7-img1{
+    background-image: url('https://i.pinimg.com/736x/81/4b/da/814bda8bed1524040ba8e8a1bc1e2ee9.jpg');
+    background-size: cover;
+    height: 115px;
+    width: 115px;
+}
+.box7-img2{
+    background-image: url('https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2024/BAU2024Sept/Swim_2X._SY232_CB563194051_.jpg');
+    background-size: cover;
+    height: 115px;
+    width: 115px;
+}
+.box71, .box73{
+    margin: 0px 0px 7.5px 18px;
+    padding: 2px;
+}
+.box72, .box74{
+    margin: 0px 18px 7.5px 0px;
+    padding: 2px;
+}
+.box7-img3{
+    background-image: url('https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2024/BAU2024Sept/Beauty_2X._SY232_CB563194051_.jpg');
+    background-size: cover;
+    height: 115px;
+    width: 115px;
+}
+.box7-img4
+{
+    background-image: url('https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2024/BAU2024Sept/Shoes_2X._SY232_CB563194051_.jpg');
+    background-size: cover;
+    height: 115px;
+    width: 115px;
+}
+/**box8**/
+.box8{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.box8-img1{
+    background-image: url('https://i.pinimg.com/736x/5b/d8/93/5bd893c5ec4277bc4cff54fbb3e79afb.jpg');
+    background-size: cover;
+    height: 115px;
+    width: 115px;
+}
+.box8-img2{
+    background-image: url('https://i.pinimg.com/236x/1b/88/0c/1b880c8fb8fa8a61077f749ddabadb9a.jpg');
+    background-size: cover;
+    height: 115px;
+    width: 115px;
+}
+.box81, .box83{
+    margin: 0px 0px 7.5px 18px;
+    padding: 2px;
+
+}
+.box82, .box84{
+    margin: 0px 18px 0px 7.5px;
+    padding: 2px;
+}
+.box8-img3{
+    background-image: url('https://i.pinimg.com/236x/59/e5/7e/59e57eda97616eaa68dc3502e081132d.jpg');
+    background-size: cover;
+    height: 115px;
+    width: 115px;
+}
+.box8-img4{
+    background-image: url('https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2024/BAU2024Aug/Tablet_2x._SY232_CB566164844_.jpg');
+    background-size: cover;
+    height: 115px;
+    width: 115px;
+}
+/**content 3**/
+.content3{
+    margin: 1.2rem;
+    padding-bottom: 200px;
+}
+.content3-section{
+    position: relative;
+    height: 290px;
+    background-color: white;
+}
+.boxy2 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 220px;
+    background-color:white;
+    margin:1px 18px 18px 18px;
+    display: flex;
+    align-items: center;
+}
+.content3-heading{
+    position: absolute;
+    top:0;
+    left: 0;
+    right: 0;
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #0f1111;
+    margin: 18px 18px 2px 18px;
+    padding: 2px;
+}
+.content3-img1{
+    height:210px;
+    width: 220px;
+    margin: 3px;
+    background-image: url('https://m.media-amazon.com/images/I/71nVIiWEcgL._AC_SY400_.jpg');
+    background-size: cover;
+}
+.content3-img2{
+    height:210px;
+    width: 260px;
+    margin: 3px;
+    background-image: url('https://m.media-amazon.com/images/I/41+1Csr1pSL._AC_SY400_.jpg');
+    background-size: cover;
+}
+.content3-img3{
+    height:210px;
+    width: 120px;
+    margin: 3px;
+    background-image: url('https://m.media-amazon.com/images/I/61QmBa1HjML._AC_SY400_.jpg');
+    background-size: cover;
+}
+.content3-img4{
+    height:210px;
+    width: 250px;
+    margin: 3px;
+    background-image: url('https://m.media-amazon.com/images/I/8113zeosHrL._AC_SY400_.jpg');
+    background-size: cover;
+}
+.content3-img5{
+    height:180px;
+    width: 140px;
+    margin: 3px;
+    background-image: url('https://m.media-amazon.com/images/I/71JNdvfxj5L._AC_SY400_.jpg');
+    background-size: cover;
+}
+.content3-img6{
+    height:190px;
+    width: 160px;
+    margin: 3px;
+    background-image: url('https://m.media-amazon.com/images/I/51x78epntaL._AC_SY400_.jpg');
+    background-size: cover;
+}
