@@ -461,3 +461,113 @@
     background-image: url('https://m.media-amazon.com/images/I/51x78epntaL._AC_SY400_.jpg');
     background-size: cover;
 }
+/** Media Queries **/
+
+/* For tablets (landscape) */
+@media (max-width: 1024px) {
+    .nav-search {
+        width: 90%;
+    }
+    .content-section1, .content-section2, .box7, .box8 {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .boxy, .box5, .box6, .content3-section {
+        width: 45%;
+        margin-bottom: 10px;
+    }
+    .boxy2 {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+/* For tablets (portrait) */
+@media (max-width: 768px) {
+    .nav-search {
+        width: 100%;
+        height: auto;
+    }
+    .search-input {
+        font-size: 0.8rem;
+    }
+    .content-section1, .content-section2, .box7, .box8 {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .boxy, .box5, .box6, .content3-section {
+        width: 100%;
+    }
+    .boxy2 {
+        flex-direction: column;
+        align-items: center;
+    }
+    .hero_section {
+        height: 180px;
+        background-size: contain;
+    }
+}
+
+/* For mobile devices (landscape) */
+@media (max-width: 576px) {
+    .menubar {
+        flex-direction: column;
+        height: auto;
+        padding: 10px 0;
+    }
+    .nav-logo, .nav-address, .nav-search, .nav-signin, .nav-return, .nav-cart {
+        margin-bottom: 10px;
+        width: 100%;
+        text-align: center;
+    }
+    .content-section1, .content-section2, .box7, .box8 {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .boxy, .box5, .box6, .content3-section {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .box-headings {
+        font-size: 1rem;
+        text-align: center;
+    }
+    .img-links, .img-links2 {
+        text-align: center;
+        font-size: 0.8rem;
+    }
+    .hero_section {
+        height: 150px;
+    }
+}
+/* For mobile devices (portrait) */
+@media (max-width: 425px) {
+    .menubar {
+        flex-direction: column;
+        height: auto;
+        padding: 10px 0;
+    }
+    .nav-logo, .nav-address, .nav-search, .nav-signin, .nav-return, .nav-cart {
+        margin-bottom: 10px;
+        width: 100%;
+        text-align: center;
+    }
+    .content-section1, .content-section2, .box7, .box8 {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .boxy, .box5, .box6, .content3-section {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .hero_section {
+        height: 120px;
+    }
+    .box-headings {
+        font-size: 0.9rem;
+        text-align: center;
+    }
+    .img-links, .img-links2 {
+        font-size: 0.7rem;
+    }
+}
