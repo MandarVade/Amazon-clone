@@ -168,7 +168,7 @@
 .content-section1{
     display: flex;
     justify-content: space-evenly;
-    margin-bottom: 18px;
+    margin-bottom: 1.2rem;
 }
 .boxy{
     height: 420px;
@@ -407,7 +407,7 @@
     display: flex;
     align-items: center;
 }
-.content3-heading{
+.content-heading2{
     position: absolute;
     top:0;
     left: 0;
@@ -464,7 +464,7 @@
 .content-section4{
     display: flex;
     justify-content: space-evenly;
-    padding-bottom: 1.2rem;
+    margin-bottom: 1.2rem;
 }
 /**box 9**/
 .box9{
@@ -618,3 +618,170 @@
     background-image: url('https://i.pinimg.com/236x/10/97/26/109726b1cbcde6848a59425492e49c9d.jpg');
     background-size: cover;
 }
+/**content section 5**/
+.content5{
+    padding: 0 1.2rem 0.5rem 1.2rem;
+}
+.content-section5{
+    position: relative;
+    height: 290px;
+    background-color: white;
+    margin-bottom: 1.2rem;
+}
+.content5-img1{
+    height:210px;
+    width: 170px;
+    background-image: url('https://i.pinimg.com/236x/02/27/30/022730e5344c7266fb58cbe38d79da2f.jpg');
+    background-size: cover;
+    margin: 3px;
+}
+.content5-img2{
+    height:210px;
+    width: 210px;
+    background-image: url('https://i.pinimg.com/474x/3b/ff/7f/3bff7f20f753ce3cc5e6dd34f9000733.jpg');
+    background-size: cover;
+    margin: 3px;
+}
+.content5-img3{
+    height:210px;
+    width: 210px;
+    background-image: url('https://i.pinimg.com/236x/bf/e9/20/bfe9201c452af9280fd1e064e2833556.jpg');
+    background-size: cover;
+    margin: 3px;
+}
+.content5-img4{
+    height:200px;
+    width: 170px;
+    background-image: url('https://i.pinimg.com/736x/39/d9/d6/39d9d620d911c59cddd87302a2810bc3.jpg');
+    background-size: cover;
+    margin: 3px;
+}
+.content5-img5{
+    height:210px;
+    width: 210px;
+    background-image: url('https://m.media-amazon.com/images/I/61kdWPk5E3L._AC_SY400_.jpg');
+    background-size: cover;
+    margin: 3px;
+}
+.content5-img6{
+    height:210px;
+    width: 190px;
+    background-image: url('https://i.pinimg.com/236x/76/11/09/761109c479943bce2b5d892d4e4aeed0.jpg');
+    background-size: cover;
+    margin: 3px;
+}
+/** second section**/
+.second-section {
+    padding: 30px 0 30px 0;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+}
+.second-heading {
+    font-size: 1.6rem;
+    color: #0f1111;
+    font-weight: 600;
+    text-align: center;
+}
+.second-button {
+    background-color: #f6de28;
+    padding: 5px 65px; 
+    font-size: 0.9rem;
+    border: none;
+    border-radius: 15px;
+    margin-top: 12px;
+}
+.second-button:hover {
+    cursor: pointer;
+    background-color: #f3ce14;
+}
+.secondy{
+    padding: 2.5px;
+    display: flex;
+    margin-top: 0.5rem; 
+    font-size: 0.85rem;
+    text-align: center; 
+}
+.second-bottom {
+    color: #555;
+}
+.second-border{
+    opacity: 50%;
+    height: 0.01px;
+}
+/**Footer**/
+/**footer-section 1**/
+.footer-section1{
+    height: 50px;
+    background-color: #37475a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 0.9rem;
+}
+/**footer-section 2**/
+.footer-section21{
+    background-color: #222f3d;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px 0 80px 0;
+}
+.footer-section21 ul{
+    list-style-type: none;
+}
+.footer-heading{
+    font-size: 1rem;
+}
+.footer-section21 a{
+    display: inline-block;
+    text-decoration: none;
+    color: #DDDDDD;
+    margin-top: 15px;
+    font-size: 0.85rem;
+}
+.footer-section21 a:hover{
+    text-decoration: underline;
+}
+/** second part**/
+.footer-section22{
+    background-color:#222f3d;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.amazon-logo{
+    height: 50px;
+    background-image: url('Amazon-Logo.png');
+    width: 100px;
+    background-size: cover;
+    margin-bottom: 7px;
+}
+/**footer section 3**/
+.footer-section3
+{
+    background-color: #0f1111;
+    opacity: 0.97;
+    padding: 50px 0;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+.contact-links{
+    color: white;
+    text-decoration: none;
+    padding-left: 5px;
+}
+.contact-links:hover{
+    text-decoration: underline;
+}
+.github, .linkdin{
+    padding: 7.5px;
+}
+
