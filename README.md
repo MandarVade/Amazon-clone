@@ -39,7 +39,7 @@ AmazonClone/
 ## How to Run the Project
 1. Clone the repository:
    ```sh
-   git clone https://github.com/your-username/amazon-clone.git
+   git clone https://github.com/MandarVade/Amazon-clone.git
    ```
 2. Navigate to the project directory:
    ```sh
