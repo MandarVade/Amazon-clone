@@ -789,3 +789,112 @@
     padding: 7.5px;
 }
 
+/* * Media queries* */
+ @media(min-width:1500px)
+ {
+    body{
+        flex-grow: 1;
+    }
+ }
+
+ @media only screen and (max-width: 600px) {
+    /* Hide unnecessary elements on mobile */
+    .nav-address, .nav-signin, .nav-return {
+        display: none;
+    }
+    /* Adjust the search bar */
+    .nav-search {
+        width: 70%; /* Take up 60% of the navbar width */
+        max-width: 70%; /* Prevent it from growing beyond 60% */
+    }
+
+    /* Adjust the menubar layout */
+    .menubar {
+        flex-wrap: nowrap; 
+        justify-content: space-between; /* Space items evenly */
+        align-items: center; /* Vertically center items */
+        height: 60px; /* Set a fixed height for the navbar */
+    }
+     .menubar > * {
+        flex: 1;
+        max-width: 100%;
+    } */
+      /* Adjust the logo and cart */
+      .nav-logo, .nav-cart {
+        flex-shrink: 1; /* Allow them to shrink */
+        max-width: 15%; /* Limit the maximum width */
+        height: auto; /* Maintain aspect ratio */
+    }
+
+    /* Adjust the panel for mobile */
+    .panel {
+        flex-direction: column; /* Stack panel items vertically */
+        align-items: flex-start; /* Align items to the left */
+        padding: 10px; /* Add some padding */
+    }
+
+    .panel-links {
+        flex-direction: column; /* Stack links vertically */
+    }
+
+    .panel-links a {
+        margin: 5px 0; /* Add spacing between links */
+    }
+
+    /* Adjust the hero section */
+    .hero_section {
+        height: 150px; /* Reduce height for mobile */
+    }
+
+    /* Adjust the content sections */
+    .content-section1, .content-section2, .content-section4 {
+        flex-direction: column; /* Stack boxes vertically */
+    }
+
+    .boxy {
+        width: 100%; /* Full width for each box */
+        margin-bottom: 20px; /* Add spacing between boxes */
+    }
+
+    /* Adjust the footer */
+    .footer-section21 {
+        flex-direction: column; /* Stack footer columns vertically */
+        align-items: flex-start; /* Align items to the left */
+        padding: 20px; /* Add some padding */
+    }
+
+    .footer-section21 ul {
+        margin: 10px 0; /* Add spacing between lists */
+    }
+
+    .footer-section3 {
+        flex-direction: column; /* Stack contact details vertically */
+        align-items: flex-start; /* Align items to the left */
+        padding: 20px; /* Add some padding */
+    }
+
+    /* Adjust the second section */
+    .second-section {
+        padding: 20px; /* Add some padding */
+    }
+
+    .second-button {
+        width: 100%; /* Full width for the button */
+        max-width: 200px; /* Limit the maximum width */
+    }
+
+    /* Adjust the content3 section */
+    .content3-section {
+        height: auto; /* Allow height to adjust */
+    }
+
+    .boxy2 {
+        flex-direction: column; /* Stack images vertically */
+    }
+
+    .content3-img1, .content3-img2, .content3-img3, .content3-img4, .content3-img5, .content3-img6 {
+        width: 100%; /* Full width for images */
+        height: auto; /* Maintain aspect ratio */
+        margin: 10px 0; /* Add spacing between images */
+    }
+}
