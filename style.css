@@ -817,7 +817,7 @@
         height: auto;
     }
     .nav-logo{
-        max-width: ;
+        max-width:auto ;
     }
     .logo{
         flex-shrink: 1;
